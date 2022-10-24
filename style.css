@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+body {
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+}
+
+
+.hero {
+    display: grid;
+    width: 95%;
+    background-color: #AE8CA3;
+    height: 50vh;
+    grid-template-columns: 1fr 1fr;
+    margin: 15px;
+}
+
+.hero-img-wrapper {
+    max-width: 95%;
+}
+
+.hero-text {
+    overflow: auto;
+}
+
+.hero-body-text-wrapper {
+    padding: 15px;
+}
+
+.hero-img {
+    max-height: 50vh
+}
+
+.wrapper {
+    display: grid;
+    width: 95%;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.rec1, .rec2, .rec3 {
+    display: grid;
+    background-color: #AE8CA3;
+    align-content: center;
+    padding: 15px;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    margin: 15px;
+}
+
+.img1, .img2, .img3 {
+    max-width: 95%;
+}
+
+h1 {
+    color: #F58549;
+    font-size: 5em;
+    padding: 5px;
+    margin: 0px;
+}
+
+h2 {
+    color: white;
+}
+
+h5 {
+    color: white;
+}
+
+.title {
+    margin: 10px;
+    padding: 0px;
+    width: 100%;
+}
+
+p {
+    color: white;
+}
+
+table {
+    display: table;
+    border-collapse: collapse;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fed766;
+}
+
+.rec-link {
+    text-decoration: underline;
+}
+
+h4, h6 {
+    margin: 5px;
+}
+
+@media (max-width: 800px) {
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+    
+.hero {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+    height: 100vh;
+}
+    
+.hero-img {
+    display: grid;
+    padding: 15px;
+    max-width: 95%;
+}
