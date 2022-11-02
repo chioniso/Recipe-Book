@@ -63,7 +63,7 @@ body {
     display: grid;
     justify-items: center;
     align-items: center;
-    max-width: 50vw;
+    max-height: 100%;
     
 }
 
@@ -158,7 +158,7 @@ h4, h6 {
     color: black;
 }
 
-.rec1-img {
+.rec1-img, .rec2-img, .rec3-img {
     max-height: 50vh;
 }
 
